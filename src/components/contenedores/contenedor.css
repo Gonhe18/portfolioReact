@@ -1,0 +1,51 @@
+/** INICIO */
+.contenedorInicio {
+  background-image: url(../../../public/img/inicio.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tituloInicio {
+  padding-top: 10px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+/* ---------------------------------------- */
+/** SOBRE MI */
+.contenedorSobreMi {
+  min-height: 100vh;
+  background-color: black;
+}
+.contenidoSobreMi {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 25px 15px;
+}
+.bloqueImg {
+  width: 50%;
+  padding: 15px;
+}
+.fotoPerfil {
+  width: 100%;
+
+  border-radius: 20px;
+}
+.bloqueSobreMi {
+  width: 50%;
+  padding: 15px;
+}
+.tituloSobreMi {
+  font-size: 3rem;
+  color: #fff;
+}
+.textoSobreMi {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #fff;
+}
+/* ---------------------------------------- */
+/** SKILLS */
+.contenedorSkill{
+  min-height: 100vh;
+}

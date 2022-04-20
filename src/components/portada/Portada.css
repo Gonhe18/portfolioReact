@@ -1,0 +1,27 @@
+.contenedorPortada {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.itemPortada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4%;
+}
+
+.itemPortada .iconoPortada {
+  color: rgb(153, 148, 148);
+  font-size: 4rem;
+}
+
+.itemPortada h2 {
+  color: rgb(153, 148, 148);
+  display: inline-block;
+  font-size: 2rem;
+}
