@@ -1,16 +1,12 @@
-import CarouselBloque from './../carousel/CarouselBloque';
-
-import "./contenedor.css";
+import CarouselBloque from "./../carousel/CarouselBloque";
 
 const Skill = () => {
   return (
-    <div className="contenedorSkill">
-      
-    <CarouselBloque/>
+    <section className="contenedorSkill">
+    <h2 className="tituloPortfolio">Skills</h2>
+      <CarouselBloque />
+    </section>
+  );
+};
 
-
-    </div>
-  )
-}
-
-export default Skill
+export default Skill;
