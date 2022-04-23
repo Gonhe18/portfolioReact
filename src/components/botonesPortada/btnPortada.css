@@ -40,3 +40,28 @@
     visibility: visible;
   }
 }
+@media screen and (max-width:560px){
+  #about {
+    top: 125px;
+    right: 220px;
+    left: 5px;
+  }
+  #skills {
+    top: 125px;
+    left: 220px;
+    right: 5px;
+  }
+  #proyectos {
+
+    top: 510px;
+    left: 5px;
+    right: 220px;
+  }
+  #contacto {
+
+    top: 510px;
+    right: 5px;
+    left: 220px;
+
+  }
+}

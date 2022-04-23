@@ -1,17 +1,15 @@
 import Portada from "./../portada/Portada";
 
-import "./contenedor.css";
-
 const SobreMi = () => {
   return (
-    <div className="contenedorSobreMi">
+    <section className="contenedorSobreMi">
       <Portada />
       <div className="contenidoSobreMi">
         <div className="bloqueImg">
           <img
             src="../img/peakpx.jpg"
             alt="Foto perfil"
-            className="fotoPerfil"
+            className="fotoSobreMi"
           />
         </div>
         <div className="bloqueSobreMi">
@@ -28,7 +26,7 @@ const SobreMi = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
