@@ -1,15 +1,15 @@
 import Button from "react-bootstrap/Button";
 
-import './btnPortada.css'
+import "./btnPortada.css";
 
-
-const BotonesPortada = () => {
+const BotonesPortada = ({ seccion, id }) => {
   return (
     <>
-      <Button className="botonPortada" id='about' variant="outline-light">Sobre mi</Button>
-      <Button className="botonPortada" id='skills' variant="outline-light">Skills</Button>
-      <Button className="botonPortada" id='proyectos' variant="outline-light">Proyectos</Button>
-      <Button className="botonPortada" id='contacto' variant="outline-light">Contacto</Button>
+      <a href={`/#${id}_`} className="enlaceSeccion">
+        <Button className="botonPortada" id={id} variant="outline-light">
+          {seccion}
+        </Button>
+      </a>
     </>
   );
 };

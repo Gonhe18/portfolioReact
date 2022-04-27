@@ -1,8 +1,4 @@
-.botonPortada {
-  width: 150px;
-}
-
-#about {
+#sobreMi {
   position: absolute;
   top: 150px;
   left: 200px;
@@ -34,14 +30,33 @@
   animation: moveIcon 1.5s 2s both;
   visibility: hidden;
 }
+.botonPortada {
+  width: 150px;
+}
+
+.enlaceSeccion{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+.enlaceSeccion:hover{
+  font-weight: bold;
+  color: black;
+}
+
+
 @keyframes moveIcon {
   100% {
     transform: unset;
     visibility: visible;
   }
 }
+
+
+
 @media screen and (max-width:560px){
-  #about {
+  #sobreMi {
     top: 125px;
     right: 220px;
     left: 5px;

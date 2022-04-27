@@ -1,9 +1,9 @@
-import React from "react";
+import { FaLinkedin, FaGithub, FaRegEnvelope } from "react-icons/fa";
 
 const Contacto = () => {
   return (
-    <section className="contenedorContacto">
-      <h2 className="tituloPortfolio">Contacto</h2>
+    <section className="contenedorContacto" id='contacto_'>
+      <h2 className="titulos">Contacto</h2>
       <div className="bloqueContacto">
         <div className="imgContacto">
           <img
@@ -13,11 +13,11 @@ const Contacto = () => {
           />
         </div>
         <div className="canalesContacto">
-          <h3>Gracias por llegar hasta aquí!!</h3>
+          <h3>Canales de contacto:</h3>
           <ul>
-            <li>LinkedIn</li>
-            <li>Email</li>
-            <li>GitHub</li>
+            <li><FaLinkedin className="iconContacto linkedin" title="Linkedin"/></li>
+            <li><FaRegEnvelope className="iconContacto email" title='Email'/></li>
+            <li><FaGithub className="iconContacto gitHub" title='GitHub'/></li>
           </ul>
         </div>
       </div>

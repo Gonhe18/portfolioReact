@@ -24,6 +24,7 @@
   color: rgb(153, 148, 148);
   display: inline-block;
   font-size: 2rem;
+  font-family: 'Orelega One', cursive;
 }
 @media screen and (max-width: 560px) {
   .contenedorPortada{
