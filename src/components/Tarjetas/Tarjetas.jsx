@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom";
+
 import "./tarjetas.css";
 
-const Tarjetas = () => {
+const Tarjetas = ({ proyecto }) => {
   return (
-    <div className="bloqueProyectos">
-      <div className="cardProyecto">
-        <div className="icon">
-          <img src="../img/homero.jpg" alt="" />
-        </div>
-        <div className="info__description">
-          <h4 className="tituloDescripcion">titulo Proyecto</h4>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nemo
-            a corrupti error ullam labore exercitationem facere
-          </p>
-          <span className="demo">Demo</span>
-          <span className="repo">Repositorio</span>
+    <div className="cardProyecto">
+      <div className="icon">
+        <img src={proyecto.img} alt={`Imagen Proyecto ${proyecto.titulo}`} />
+      </div>
+      <div className="info__description">
+        <h4 className="tituloDescripcion">{proyecto.titulo}</h4>
+        <p>{proyecto.descripcion}</p>
+        <div className="bloqueEnlaces">
+          <Link to={proyecto.demo} className="enlaceProyecto">
+            <span className="demo">Demo</span>
+          </Link>
+          <Link to={proyecto.repo} className="enlaceProyecto">
+            <span className="repo">Repo</span>
+          </Link>
         </div>
       </div>
     </div>
