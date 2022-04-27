@@ -1,21 +1,12 @@
-import { FcAlarmClock, FcAndroidOs, FcBriefcase } from "react-icons/fc";
-
 import "./carousel.css";
 
-const CarouselBloque = () => {
+const CarouselBloque = ({ skill }) => {
+
   return (
-    <>
-      <section className="contenedorSkills">
-        <div className="slider">
-          <div className="slide-track">
-            <div className="slide">
-              <FcAlarmClock className="icoSkills" />
-              <span className="nombreSkills">Android</span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
+    <div className="slide">
+      <img className="icoSkills" src={skill.img} alt={`Icono${skill.skill}`} />
+      <span className="nombreSkills">{skill.skill}</span>
+    </div>
   );
 };
 

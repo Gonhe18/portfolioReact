@@ -18,6 +18,12 @@
 }
 /* ---------------------------------------- */
 /** SOBRE MI */
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .contenedorSobreMi {
   min-height: 100vh;
   background-color: black;
@@ -55,6 +61,68 @@
 .contenedorSkill {
   min-height: 100vh;
 }
+.bloqueSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textoSkill {
+  margin-top: 50px;
+  width: 75%;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+slider:before,
+slider:after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+slider:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+slider:before {
+  left: 0;
+  top: 0;
+}
+.slide-track {
+  animation: scroll 25s linear infinite alternate;
+  display: flex;
+  width: calc(250px * 12);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7.7));
+  }
+}
 /* ---------------------------------------- */
 /** PROYECTOS */
 .contenedorProyectos {
@@ -64,16 +132,26 @@
 .tituloProyectos {
   color: #fff;
 }
+.bloqueProyectos {
+  max-width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
 /* ---------------------------------------- */
 /** CONTACTO */
 .contenedorContacto {
-  min-height: 50vh;
+  min-height: 100vh;
 }
 .bloqueContacto {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   padding: 25px 15px;
+  margin-top: 35px;
 }
 .imgContacto,
 .canalesContacto {
@@ -85,7 +163,7 @@
 }
 .canalesContacto {
   width: 50%;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .canalesContacto h3 {
   font-size: 2rem;
@@ -93,23 +171,17 @@
   margin-bottom: 75px;
   font-family: "Abril Fatface", cursive;
 }
-.canalesContacto ul {
-  list-style: none;
+.bloqueCanales {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 .iconContacto {
-  font-size: 2.5rem;
+  width:75px;
 }
-.linkedin:hover {
-  color:rgb(45, 45, 224);
-}
-.email:hover{
-  color:red;
-}
-.gitHub:hover{
-  color:gray;
+.iconContacto:hover{
+  transform: scale(1.3, 1.3);
+  transition-duration: 0.5s;
 }
 
 /*? MQ */
@@ -136,6 +208,30 @@
   .tituloSobreMi {
     font-size: 2.5rem;
     text-align: center;
+  }
+  /* ---------------------------------------- */
+  /** SKILLS */
+  .contenedorSkills {
+    min-height: 50vh;
+  }
+  .slider {
+    width: 95%;
+  }
+
+  .slide-track {
+    animation: scroll 2500ms linear infinite alternate;
+    display: flex;
+    width: calc(250px * 10);
+  }
+  .slide {
+    width: 120px;
+  }
+
+  .icoSkills {
+    font-size: 3rem;
+  }
+  .nombreSkills {
+    font-size: 1.1rem;
   }
   /* ---------------------------------------- */
   /** CONTACTO */
