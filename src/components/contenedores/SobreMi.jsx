@@ -2,7 +2,7 @@ import Portada from "./../portada/Portada";
 
 const SobreMi = () => {
   return (
-    <section className="contenedorSobreMi">
+    <section className="contenedorSobreMi" id='sobreMi_'>
       <Portada />
       <div className="contenidoSobreMi">
         <div className="bloqueImg">

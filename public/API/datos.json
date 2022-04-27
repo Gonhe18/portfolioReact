@@ -1,0 +1,135 @@
+[
+  {
+    "nombre": "Gonzalo Bazzani",
+    "secciones": [
+      {
+        "id": "sobreMi",
+        "Sobre Mi": {
+          "info": "Hola, soy Gonza y tengo 32 años. Luego de varios decidí ingresar al mundo IT, encontrando un espacio que me gusta mucho, me apaciona y me motiva a seguir aprendiendo. Se que tengo un largo camino por delante pero considero que voy por el camino correcto, me gustan los desafíos y la posibilidad de encontrar una solución a los mismos. Hoy en día estoy orientado al desarrollo frontend con ReactJs, aunque también me motiva recorrer lo que hace a un analista de datos. En este pequeño portfolio, creado con ReactJs, muestro un poco mi recorrido en este hermoso ambito, detallando los skills adquiridos como algunos proyectos que he hecho en este tiempo. Finalizando con mis canales de contacto y acceso a mi repositorio de GitHub."
+        }
+      },
+      {
+        "id": "skills",
+        "Skills": [
+          {
+            "skill": "HTML5",
+            "img": "../img/iconosSkills/html.png"
+          },
+          {
+            "skill": "CSS",
+            "img": "../img/iconosSkills/css.png"
+          },
+          {
+            "skill": "SASS",
+            "img": "../img/iconosSkills/sass.png"
+          },
+          {
+            "skill": "Bootstrap",
+            "img": "../img/iconosSkills/bootstrap.png"
+          },
+          {
+            "skill": "JavaScript",
+            "img": "../img/iconosSkills/javascript.png"
+          },
+          {
+            "skill": "ReactJs",
+            "img": "../img/iconosSkills/react.png"
+          },
+          {
+            "skill": "NodeJs",
+            "img": "../img/iconosSkills/node.png"
+          },
+          {
+            "skill": "ExpressJs",
+            "img": "../img/iconosSkills/expressjs.png"
+          },
+          {
+            "skill": "MySQL",
+            "img": "../img/iconosSkills/mysql.png"
+          },
+          {
+            "skill": "Firebase",
+            "img": "../img/iconosSkills/firebase.png"
+          },
+          {
+            "skill": "Git",
+            "img": "../img/iconosSkills/git.png"
+          },
+          {
+            "skill": "GitHub",
+            "img": "../img/iconosSkills/github.png"
+          },
+          {
+            "skill": "Visual Studio Code ",
+            "img": "../img/iconosSkills/microsoft_visual_studio_code.png"
+          },
+          {
+            "skill": "Python",
+            "img": "../img/iconosSkills/python.png"
+          },
+          {
+            "skill": "NPM",
+            "img": "../img/iconosSkills/npm.png"
+          }
+        ]
+      },
+      {
+        "id": "proyectos",
+        "Proyectos": [
+          {
+            "titulo": "Biografía Leo Messi",
+            "descripcion": "Proyecto final del curso Desarrollo Web en CoderHouse, el mismo esta creado solo con HTML y SASS, aunque tiene pequeños cosas de JS que le dan funcionalidad.",
+            "img": "../img/proyectos/bioMessi.png",
+            "demo": "https://biografialeomessi.netlify.app/",
+            "repo": "https://github.com/Gonhe18/biografialeomessi"
+          },
+          {
+            "titulo": "App del clima",
+            "descripcion": "Uno de los primero proyectos creados en 'Programá desde tu casa', fue como práctica en el uso de APis. Está realizado con JavaScript Vanilla.",
+            "img": "../img/proyectos/appClima.png",
+            "demo": "https://gonhe18.github.io/appClima/",
+            "repo": "https://github.com/Gonhe18/appClima"
+          },
+          {
+            "titulo": "E-commerce Js Vanilla",
+            "descripcion": "E-commerce creado como parte del proyecto final del curso de JavaScript en CoderHouse, el mismo esta hecho con JavaScript Vanilla.",
+            "img": "../img/proyectos/ecommJs.png",
+            "demo": "https://ecommerce-js-gonzabazzani.netlify.app/",
+            "repo": "https://github.com/Gonhe18/Ecommerce_ProyectoFinalCoder"
+          },
+          {
+            "titulo": "E-Commerce con ReactJs",
+            "descripcion": "Proyecto final del curso Desarrollo Frontend ReactJs en CoderHouse, el mismo además de utilizar ReactJs utiliza como base de datos Google Firebase",
+            "img": "../img/proyectos/ecommReact.png",
+            "demo": "https://ecommerce-react-gonzalobazzani.netlify.app/",
+            "repo": "https://github.com/Gonhe18/ecommerce-react"
+          },
+          {
+            "titulo": "Portfolio personal",
+            "descripcion": "Creado con doble finalidad, la principal es la de mostrar mi aprendizaje y experiencia hasta el momento y por otro lado poder seguir aplicando mis conocimientos con pequeños proyectos. El mismo esta creado con ReactJs",
+            "img": "",
+            "demo": "",
+            "repo": "https://github.com/Gonhe18/portfolioReact"
+          }
+        ]
+      },
+      {
+        "id": "contacto",
+        "Contacto": [
+          {
+            "red": "LinkedIn",
+            "link": "https://www.linkedin.com/in/gonzalo-bazzani/"
+          },
+          {
+            "red": "Email",
+            "link": ""
+          },
+          {
+            "red": "GitHub",
+            "link": "https://github.com/Gonhe18"
+          }
+        ]
+      }
+    ]
+  }
+]
