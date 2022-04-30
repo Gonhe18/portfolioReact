@@ -33,7 +33,6 @@
 .botonPortada {
   width: 150px;
 }
-
 .enlaceSeccion{
   text-decoration: none;
   color: black;
@@ -44,8 +43,6 @@
   font-weight: bold;
   color: black;
 }
-
-
 @keyframes moveIcon {
   100% {
     transform: unset;
@@ -53,30 +50,22 @@
   }
 }
 
-
-
-@media screen and (max-width:560px){
+@media screen and (min-width:200px) and (max-width:959px){
   #sobreMi {
     top: 125px;
-    right: 220px;
-    left: 5px;
+    left: 25px;
   }
   #skills {
-    top: 125px;
-    left: 220px;
-    right: 5px;
+    top: 175px;
+    right: 25px;
   }
   #proyectos {
-
     top: 510px;
-    left: 5px;
-    right: 220px;
+    left: 25px;
   }
   #contacto {
-
-    top: 510px;
-    right: 5px;
-    left: 220px;
-
+    top: 560px;
+    right: 25px;
   }
 }
+

@@ -88,3 +88,23 @@
 .repo {
   color: navy;
 }
+
+@media screen and (max-width: 320px){
+  .cardProyecto {
+    width: 280px;
+    margin: 60px 0 30px 0;
+  }
+  .tituloDescripcion {
+    padding: 0;
+  }
+  .info__description p {
+    min-height: 100px;
+    font-size: 1rem;
+    padding:0;
+  }
+  .demo,
+  .repo {
+    font-size: 1.1rem;
+  }
+
+}

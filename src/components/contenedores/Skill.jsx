@@ -36,7 +36,6 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          )
         </>
       )}
     </section>
