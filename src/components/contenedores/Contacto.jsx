@@ -1,7 +1,6 @@
 import { useContexto } from "./../Context/Context";
 import { SpinnerDotted } from "spinners-react";
 import "./contenedor.css";
-import { Link } from "react-router-dom";
 
 const Contacto = () => {
   const { carga, contacto } = useContexto();
@@ -28,15 +27,14 @@ const Contacto = () => {
               <h3>Canales de contacto:</h3>
               <div className="bloqueCanales">
                 {contacto.Contacto.map((ico, index) => (
-                  <Link to={ico.url} className="enlaceRed" key={index}>
-                    {" "}
+                  <a href={`${ico.url}`} className="enlaceRed" key={index}>
                     <img
                       className="iconContacto"
                       src={ico.img}
                       alt={`Imagen ${ico.red}`}
                       title={ico.red}
                     />
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>

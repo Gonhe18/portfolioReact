@@ -124,7 +124,7 @@
           },
           {
             "red": "Email",
-            "url": "",
+            "url": "mailto:gonzalobazzani@gmail.com?subject=Contacto Portfolio",
             "img":"../img/icoContacto/email.png"
           },
           {
@@ -133,7 +133,7 @@
             "img":"../img/icoContacto/github.png"
           }
         ],
-        "img":"../img/peakpx.jpg"
+        "img":"../img/Gonzalo Bazzani - Perfil.jpg"
       }
     ]
   }
