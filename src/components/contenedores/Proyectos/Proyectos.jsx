@@ -1,8 +1,8 @@
-import { useContexto } from "./../Context/Context";
+import { useContexto } from "../../Context/Context";
 import { SpinnerDotted } from "spinners-react";
-import "./contenedor.css";
+import Tarjetas from "../../Tarjetas/Tarjetas";
 
-import Tarjetas from "./../Tarjetas/Tarjetas";
+import './proyectos.css'
 
 const Proyectos = () => {
   const { carga, proyectos } = useContexto();

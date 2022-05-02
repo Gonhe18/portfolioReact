@@ -1,0 +1,54 @@
+/** SKILLS */
+.contenedorSkill {
+  min-height: 100vh;
+}
+.bloqueSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textoSkill {
+  margin: 10px 0;
+  width: 75%;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+}
+.bloqueImg {
+  display: flex;
+  flex-direction: column;
+}
+.textoImg {
+  padding-bottom: 10px;
+  width: 80%;
+  margin: auto;
+  text-align: start;
+}
+.imgSkill {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+/* ---------------------------------------- */
+@media screen and (max-width:710px) {
+  /** SKILLS */
+  .bloqueImg {
+    width: 100%;
+    margin: 0;
+  }
+  .textoSkill {
+    width: 95%;
+  }
+  .textoImg {
+    width: 100%;
+    text-align: center;
+  }
+  .imgSkill {
+    margin: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+/** INICIO */
+.contenedorInicio {
+  background-image: url(../../../../public/img/inicio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 90px)
+}
+.titulos {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Abril Fatface", cursive;
+}
+.tituloPortfolio {
+  font-family: "Libre Bodoni", serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-height:80vh;
+  padding-right: 40px;
+}
+/* ---------------------------------------- */
+@media screen and (max-width: 560px) {
+  /** INICIO */
+  .tituloPortfolio {
+    padding: 10px;
+    font-size: 3rem;
+    justify-content:center;
+  }
+}

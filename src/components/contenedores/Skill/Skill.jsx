@@ -1,7 +1,9 @@
-import { useContexto } from "./../Context/Context";
+import { useContexto } from "../../Context/Context";
 import { SpinnerDotted } from "spinners-react";
 
-import CarouselBloque from "./../carousel/CarouselBloque";
+import BloqueSkill from "../../BloqueSkill/BloqueSkill";
+
+import "./skill.css";
 
 const Skill = () => {
   const { carga, skill } = useContexto();
@@ -28,11 +30,12 @@ const Skill = () => {
                 conocimientos.
               </p>
             </div>
-            <div className="slider">
-              <div className="slide-track">
-                {skill.Skills.map((skill, index) => (
-                  <CarouselBloque skill={skill} key={index} />
-                ))}
+            <div className="bloqueImg">
+              <h3 className="textoImg">Desarrolo Web</h3>
+              <div className="imgSkill">
+              {skill.Skills.map((skill, index) => (
+                <BloqueSkill skill={skill} key={index} />
+              ))}
               </div>
             </div>
           </div>
