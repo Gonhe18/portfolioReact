@@ -1,0 +1,18 @@
+/** PROYECTOS */
+.contenedorProyectos {
+  min-height: 100vh;
+  background-color: black;
+}
+.tituloProyectos {
+  color: #fff;
+}
+.bloqueProyectos {
+  max-width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+/* ---------------------------------------- */

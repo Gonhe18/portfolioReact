@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 import "./tarjetas.css";
 
@@ -12,12 +11,12 @@ const Tarjetas = ({ proyecto }) => {
         <h4 className="tituloDescripcion">{proyecto.titulo}</h4>
         <p>{proyecto.descripcion}</p>
         <div className="bloqueEnlaces">
-          <Link to={proyecto.demo} className="enlaceProyecto">
+          <a href={proyecto.demo} className="enlaceProyecto">
             <span className="demo">Demo</span>
-          </Link>
-          <Link to={proyecto.repo} className="enlaceProyecto">
+          </a>
+          <a href={proyecto.repo} className="enlaceProyecto">
             <span className="repo">Repo</span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

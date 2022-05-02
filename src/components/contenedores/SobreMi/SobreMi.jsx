@@ -1,8 +1,10 @@
-import Portada from "./../portada/Portada";
-import { useContexto } from "./../Context/Context";
+import Portada from "../../portada/Portada";
+import { useContexto } from "../../Context/Context";
 import { SpinnerDotted } from "spinners-react";
 
-const SobreMi = () => {
+import './sobreMi.css'
+
+const SobreMi = ({title}) => {
   const { carga, miPerfil } = useContexto();
 
   return (
@@ -21,7 +23,7 @@ const SobreMi = () => {
           <Portada />
           {miPerfil.Sobre_Mi.map((sec, index) => (
             <div className="contenidoSobreMi" key={index}>
-              <div className="bloqueImg">
+              <div className="bloqueImgSobreMi">
                 <img
                   src={sec.img}
                   alt="Foto perfil"
@@ -29,7 +31,7 @@ const SobreMi = () => {
                 />
               </div>
               <div className="bloqueSobreMi">
-                <h2 className="tituloSobreMi">{Object.keys(miPerfil)[1]}</h2>
+                <h2 className="tituloSobreMi">{title}</h2>
                 <p className="textoSobreMi">{sec.info}</p>
               </div>
             </div>

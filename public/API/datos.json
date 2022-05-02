@@ -108,8 +108,8 @@
           {
             "titulo": "Portfolio personal",
             "descripcion": "Proyecto creado para poder mostrar mi camino de aprendizaje, skill obtenidos y demás proyectos desarrollados. El mismo esta creado con ReactJs.",
-            "img": "../img/peakpx.jpg",
-            "demo": "https://github.com/Gonhe18/portfolioReact",
+            "img": "../img/proyectos/porffolio.png",
+            "demo": "https://portfolio-gonbazzani.netlify.app/",
             "repo": "https://github.com/Gonhe18/portfolioReact"
           }
         ]

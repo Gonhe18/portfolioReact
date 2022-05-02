@@ -1,0 +1,64 @@
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/** SOBRE MI */
+.contenedorSobreMi {
+  min-height: calc(100vh - 90px);
+  background-color: black;
+}
+.contenidoSobreMi {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+}
+.bloqueImgSobreMi {
+  width: 50%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.fotoSobreMi {
+  width: 100%;
+  border-radius: 20px;
+}
+.bloqueSobreMi {
+  width: 50%;
+  padding:  0 15px;
+}
+.tituloSobreMi {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Abril Fatface", cursive;
+}
+.textoSobreMi {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+/* ---------------------------------------- */
+@media screen and (max-width: 992px) {
+  /** SOBRE MI */
+  .contenidoSobreMi {
+    flex-direction: column;
+    padding: 0;
+  }
+  .bloqueImgSobreMi {
+    width: 100%;
+  }
+  .bloqueSobreMi {
+    width: 100%;
+    order: -1;
+  }
+  .tituloSobreMi {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .textoSobreMi{
+    padding: 0 30px;
+  }
+}

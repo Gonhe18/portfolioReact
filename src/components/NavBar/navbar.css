@@ -1,0 +1,45 @@
+.contenedorNav {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  margin: 0;
+}
+.tituloNavbar {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Abril Fatface", cursive;
+}
+.tituloNavbar:hover {
+  color: #fff;
+}
+.opcionesNav {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+.opcionesNav:hover {
+  background-color: floralwhite;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: black;
+}
+.desplegable {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .desplegable {
+    justify-content: center;
+  }
+  .opcionesNav:hover {
+    background-color: floralwhite;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+  }
+}
