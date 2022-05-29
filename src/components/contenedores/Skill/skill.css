@@ -20,21 +20,20 @@
   flex-direction: column;
 }
 .textoImg {
-  padding-bottom: 10px;
   width: 80%;
   margin: auto;
   text-align: start;
 }
 .imgSkill {
-  width: 75%;
+  width: 90%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: auto;
+  margin: 15px auto;
 }
 
 /* ---------------------------------------- */
-@media screen and (max-width:710px) {
+@media screen and (max-width: 710px) {
   /** SKILLS */
   .bloqueImg {
     width: 100%;

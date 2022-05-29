@@ -1,13 +1,13 @@
 /** CONTACTO */
 .contenedorContacto {
-  min-height: 95vh;
+  min-height: calc(100vh - 90px);
 }
 .bloqueContacto {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 25px 15px;
-  margin-top: 35px;
+  padding: 15px;
+  margin: 0;
 }
 .imgContacto,
 .canalesContacto {
@@ -16,7 +16,7 @@
   margin: auto;
 }
 .imgPerfil {
-  width: 80%;
+  width: 70%;
   border-radius: 50% 25%;
   display: block;
   margin: auto;
