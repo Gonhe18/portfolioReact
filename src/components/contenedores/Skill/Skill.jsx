@@ -31,7 +31,7 @@ const Skill = () => {
               </p>
             </div>
             <div className="bloqueImg">
-              <h3 className="textoImg">Desarrolo Web</h3>
+              {/* <h3 className="textoImg">Desarrolo Web</h3> */}
               <div className="imgSkill">
               {skill.Skills.map((skill, index) => (
                 <BloqueSkill skill={skill} key={index} />

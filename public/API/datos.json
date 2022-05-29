@@ -5,7 +5,7 @@
       {
         "id": "sobreMi",
         "Sobre_Mi": [{
-          "info": "Hola, soy Gonza y tengo 32 años. Luego de varios años en otro rubro decidí ingresar al mundo IT, encontrando un espacio que me gusta mucho, me apasiona y me motiva a seguir aprendiendo. Se que tengo un largo camino por delante, pero considero que voy por el camino correcto, me gustan los desafíos y la posibilidad de encontrar una solución a los mismos. Hoy en día estoy orientado al desarrollo frontend con ReactJs, aunque también me motiva recorrer mundo del análisis de datos. En este pequeño portfolio, creado con ReactJs, muestro un poco mi recorrido en este hermoso ámbito, detallando los skills adquiridos como algunos proyectos que he hecho en este tiempo. Finalizando con mis canales de contacto y acceso a mi repositorio de GitHub.",
+          "info": "Hola, soy Gonza y este es mi portfolio. Luego de varios años en otro rubro decidí ingresar al mundo IT, encontrando un espacio que me gusta mucho, me apasiona, me genera curiosidad y me motiva a seguir aprendiendo. Se que es un largo camino, pero considero que voy por el camino correcto, me gustan los desafíos y la posibilidad de encontrar una solución a los mismos. Hoy en día estoy orientado al desarrollo frontend con ReactJs, aunque también me motiva recorrer mundo del análisis de datos. En este pequeño portfolio, creado con ReactJs, muestro un poco mi recorrido en este hermoso ámbito, detallando los skills adquiridos como algunos proyectos que he hecho en este tiempo. Finalizando con mis canales de contacto y acceso a mi repositorio de GitHub.",
           "img":"../img/peakpx.jpg"
         }]
       },
